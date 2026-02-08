@@ -1,3 +1,51 @@
+[[MUMPS]]
+arch = "aarch64"
+git-tree-sha1 = "7f714a408b6decaacbfad4637784249607ce3926"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[MUMPS.download]]
+    sha256 = "7fbdf14a3cb74654a7b2cf9783281614efbd0eb783d6cbc623e617bbf2652997"
+    url = "https://github.com/amontoison/MUMPS_seq_jll.jl/releases/download/MUMPS-v5.8.2+1/MUMPS.v5.8.2.aarch64-apple-darwin-libgfortran5.tar.gz"
+[[MUMPS]]
+arch = "aarch64"
+git-tree-sha1 = "97c5bbef740b33255dd917ba351b344414a4f262"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[MUMPS.download]]
+    sha256 = "3dfdafa76067931fbab4727dffa1b3aef7f1cd3bdaff50c7d7b7122f9b903630"
+    url = "https://github.com/amontoison/MUMPS_seq_jll.jl/releases/download/MUMPS-v5.8.2+1/MUMPS.v5.8.2.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[MUMPS]]
+arch = "x86_64"
+git-tree-sha1 = "6fdbc0d4397dbc6db91460291cff2d3685e0f138"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[MUMPS.download]]
+    sha256 = "c05a42908e11cee404fd65f9703cb3ef86caee217dbdd2fb13259aa8ff1b1ac9"
+    url = "https://github.com/amontoison/MUMPS_seq_jll.jl/releases/download/MUMPS-v5.8.2+1/MUMPS.v5.8.2.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[MUMPS]]
+arch = "x86_64"
+git-tree-sha1 = "4b9ca421bdec8a193ae8fc5bce06369632542467"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[MUMPS.download]]
+    sha256 = "29651d96e366ee99d8ff0c0438f41ee3614546046f0ee4f873edac255b1f2ec9"
+    url = "https://github.com/amontoison/MUMPS_seq_jll.jl/releases/download/MUMPS-v5.8.2+1/MUMPS.v5.8.2.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[MUMPS]]
+arch = "x86_64"
+git-tree-sha1 = "be8157abe80de26fdafd37bbb4ea2b0cdb101b43"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[MUMPS.download]]
+    sha256 = "0617252df43ad0cb2dfc6203d9fbe25cae4e3c992dc7e88cd2477864806eae8b"
+    url = "https://github.com/amontoison/MUMPS_seq_jll.jl/releases/download/MUMPS-v5.8.2+1/MUMPS.v5.8.2.x86_64-w64-mingw32-libgfortran5.tar.gz"
+
 [[MUMPS_seq]]
 arch = "aarch64"
 git-tree-sha1 = "84e15acfeaa197821a83e1eb5d893a6024c053bd"
